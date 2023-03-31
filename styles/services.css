@@ -1,0 +1,103 @@
+.services{
+    padding: 1rem 2rem;
+}
+.modeling-dresses{
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(367px, 1fr));
+    grid-template-rows: repeat(3, 1fr);
+    gap: 50px;
+    grid-auto-rows: 1fr;
+    justify-items: center;
+    
+}
+.deress{
+    margin: 1rem 2rem;
+    padding: .5rem;
+    max-width: 357px;
+    height: 600px;
+    cursor: pointer;
+    transition: box-shadow .5s ease;
+}
+.deress:hover{
+    box-shadow: 0 0 10px gray;
+    padding: .5rem;
+}
+.deress-image{
+    width: 100%;
+    height: 80%;
+    background-size: cover;
+    background-position: center;
+    transition: background-image 1s ease;
+}
+.deress-title{
+    font-weight: bold;
+    padding: 0.5rem;
+}
+.dreess-text{
+    font-weight: bold;
+    padding: 0.5rem;
+    font-size: 15px;
+}
+.bgimage1{
+    background-image: url('../imgs/Bride1-1.jpg');
+}
+.bgimage2{
+    background-image: url('../imgs/Bride1-2.jpg');
+}
+.bgimage3{
+    background-image: url('../imgs/Bride1-3.jpg');
+}
+.bgimage4{
+    background-image: url('../imgs/Bride2-1.jpg');
+}
+.bgimage5{
+    background-image: url('../imgs/Bride2-2.jpg');
+}
+.bgimage6{
+    background-image: url('../imgs/Bride2-3.jpg');
+}
+.bgimage7{
+    background-image: url('../imgs/Bride3-1.jpg');
+}
+.bgimage8{
+    background-image: url('../imgs/Bride3-2.jpg');
+}
+.bgimage9{
+    background-image: url('../imgs/Bride3-3.jpg');
+}
+
+.bgimage1:hover{
+    background-image: url('../hover-bride/Bride1-1.jpg');
+}
+.bgimage2:hover{
+    background-image: url('../hover-bride/Bride1-2.jpg');
+}
+.bgimage3:hover{
+    background-image: url('../hover-bride/Bride1-3.jpg');
+}
+.bgimage4:hover{
+    background-image: url('../hover-bride/Bride2-1.jpg');
+}
+.bgimage5:hover{
+    background-image: url('../hover-bride/Bride2-2.jpg');
+}
+.bgimage6:hover{
+    background-image: url('../hover-bride/Bride2-3.jpg');
+}
+.bgimage7:hover{
+    background-image: url('../hover-bride/Bride3-1.jpg');
+}
+.bgimage8:hover{
+    background-image: url('../hover-bride/Bride3-2.jpg');
+}
+.bgimage9:hover{
+    background-image: url('../hover-bride/Bride3-3.jpg');
+}
+
+@media screen and (max-width: 768px) {
+    .modeling-dresses{
+        padding: 0;
+    }
+    
+}

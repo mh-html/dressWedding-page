@@ -1,0 +1,30 @@
+.footer{
+    background-color: var(--light);
+    padding: 2rem;
+}
+.social{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.channle-softwar{
+    border-bottom: 2px solid #000;
+}
+.footer-title{
+    margin-bottom: 2rem;
+    font-size: 30px;
+    font-family: 'Sansita Swashed', cursive;
+}
+.copyright{
+    text-align: center;
+}
+@media screen and (max-width: 768px) {
+    .social{
+        flex-direction: column;
+        text-align: center;
+    }
+    .channle-softwar{
+        margin-bottom: .5rem;
+    }
+}
